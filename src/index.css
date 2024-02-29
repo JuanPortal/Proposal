@@ -152,3 +152,12 @@ header nav .link:hover {
   width: 50%;
   text-align: center;
 }
+
+/* CONTACT */
+
+.contact iframe {
+  width: 600px;
+  aspect-ratio: 6/4;
+  border: none;
+
+}
