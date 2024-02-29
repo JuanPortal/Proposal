@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import { Header } from "./Header"
 import { Home } from "./Home"
 import { Services } from "./Services"
 import { Contact } from "./Contact"
@@ -7,7 +8,7 @@ function Template() {
 
   return (
     <>
-      <h1>Template</h1>
+      <Header />
 
       <Routes>
         <Route path="/" element={<Home />}/>
