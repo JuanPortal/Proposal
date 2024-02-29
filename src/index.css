@@ -7,13 +7,21 @@
 
 #root {
   min-height: 100vh;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  background-image: linear-gradient(to right bottom, #6864c0, #686fbe, #6c7aba, #7483b4, #7e8cae, #858eaf, #8c91af, #9293b0, #9c8fb6, #aa89b7, #bb82b3, #cd7aa9);
 }
 
 section {
+  width: 100%;
+  min-height: 85vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 /* HEADER */
@@ -24,6 +32,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
+  background-color: #00000027;
 }
 
 header h1 > * {
@@ -64,4 +73,29 @@ header nav .link {
 header nav .link:hover {
   font-weight: 600;
   font-style: italic;
+}
+
+/* HOME */
+
+.home {
+  padding: 0 200px;
+}
+
+.home .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.home .container img {
+  width: 600px;
+  border-radius: 20px;
+  border: 3px solid #000;
+}
+
+.home .container p {
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 40px;
 }
