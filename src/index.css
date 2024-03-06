@@ -328,6 +328,7 @@ header .hamburger-menu {
 
   .contact {
     padding: 0;
+    overflow: hidden;
   }
 
   .contact .socials a {
