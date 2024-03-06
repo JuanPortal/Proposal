@@ -218,13 +218,17 @@ header .hamburger-menu {
     padding: 0 20px;
   }
 
-  header h1 p {
-    font-size: 2.3rem;
+  header h1 > * {
+    gap: 10px;
   }
 
   header h1 img {
     width: 70px;
     height: 70px;
+  }
+
+  header h1 p {
+    font-size: 2.1rem;
   }
 
   header .hamburger-menu {
@@ -263,7 +267,7 @@ header .hamburger-menu {
   }
 
   .home {
-    padding: 0 100px;
+    padding: 0 100px 50px 100px;
   }
 
   .home .container {
