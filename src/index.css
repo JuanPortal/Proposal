@@ -339,7 +339,7 @@ header .hamburger-menu {
     font-size: 1.2rem;
   }
 
-  .contact>a:last-of-type {
+  .contact > a:last-of-type {
     font-size: .9rem;
   }
 
